@@ -3,14 +3,14 @@
 
 
 Environments in consideration :
-• Cartpole • MountainCar • Boxing
+**• Cartpole • MountainCar • Boxing**
 
 Algorithms in consideration :
-• DQN • Double DQN • A2C • PPO
+**• DQN • Double DQN • A2C • PPO**
 
 2 Environments
  
- 2.1 CartPole-v1 environment
+ 2.1 **CartPole-v1 environment**
  
   Observation Space : 4-dimensional array -
   • Cart Position
@@ -32,7 +32,7 @@ Algorithms in consideration :
   3. Length of episode is greater than 500
 
 
- 2.2 MountainCar environment
+ 2.2 **MountainCar environment**
   
   Observation Space :
    n-dimensional array with shape (2, ). Elements correspond to :
@@ -50,9 +50,13 @@ Algorithms in consideration :
    • The length of the episode is 200
 
 
-2.3 Boxing environment
+2.3 **Boxing environment**
+
  Observation Space : (210, 160, 3)
+ 
  Action Space : Discrete(18)
+ 
  Rewards : You score points by landing punches
+ 
  Termination : If the score is 100 points, the opponent is knocked out
 
